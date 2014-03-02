@@ -1,7 +1,7 @@
 {
     "name": "grider",
     "description": "REST uploader for MongoDB's GridFS",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
         "name": "Alex Movsisyan",
         "email": "node@movsisyan.com"

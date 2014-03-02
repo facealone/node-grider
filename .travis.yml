@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- 0.8
+- 0.1
+branches:
+  only:
+  - master
+notifications:
+  email:
+  - dev@movsisyan.com
+deploy:
+  api_key:
+    secure: S+c/GKUAybdiJYpo/Bi2W46B+ndyLvlx5fCzSUJhzCG+xPJlSuJsd8b7DB61vFrlFH9oKmRm+Md4RuwCQbTMM3Ku5aNF33DSpirbIbDxSUJ355LjEwgx7rxR2Hn8pgMjG72FwhZjmzAfFFKTPBc/XOE4RrtgQ0tkPl50dz3o2iM=
+  email: dev@movsisyan.com
+  provider: npm

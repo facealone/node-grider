@@ -17,7 +17,7 @@ REST uploader for MongoDB's GridFS
 
 Run as standalone server
 
-    grider --server --port=8888 --mongodb_uri=mongodb://127.0.0.1:27017/test
+    grider --port=8888 --mongodb_uri=mongodb://127.0.0.1:27017/test
 
 ## Request params
 
@@ -27,7 +27,6 @@ You can send additional fields to store with file, except 'file' everything is o
 * `_id`           - MongoDB ObjectID `(optional)`
 * `filename`      - Filename that used to store file in GridFS `(optional)`
 * `mode`          - Default value: w, possible options: w, w+ or r, see [GridStore] `(optional)`
-* `chunkSize`     - Size for the chunk. Defaults to 1024 `(optional)`
 * `metadata`      - Arbitrary data to store. String encoded JSON `(optional)`
 * `content_type`  - Mime type of the file `(optional)`
 * `root`          - Root collection to use `(optional)`
